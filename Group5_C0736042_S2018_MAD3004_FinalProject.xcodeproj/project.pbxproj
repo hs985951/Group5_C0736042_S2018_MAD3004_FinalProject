@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9BEEC13F210A6C8F00EEF651 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEC13E210A6C8F00EEF651 /* main.swift */; };
+		9BEEC147210A6CC100EEF651 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEC146210A6CC100EEF651 /* Vehicle.swift */; };
+		9BEEC149210A6D4600EEF651 /* MotorCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEC148210A6D4600EEF651 /* MotorCycle.swift */; };
+		9BEEC14B210A6D6E00EEF651 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEC14A210A6D6E00EEF651 /* Car.swift */; };
+		9BEEC14D210A6DAC00EEF651 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEC14C210A6DAC00EEF651 /* IDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		9BEEC13B210A6C8F00EEF651 /* Group5_C0736042_S2018_MAD3004_FinalProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Group5_C0736042_S2018_MAD3004_FinalProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BEEC13E210A6C8F00EEF651 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BEEC146210A6CC100EEF651 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		9BEEC148210A6D4600EEF651 /* MotorCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorCycle.swift; sourceTree = "<group>"; };
+		9BEEC14A210A6D6E00EEF651 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9BEEC14C210A6DAC00EEF651 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,21 @@
 		9BEEC13D210A6C8F00EEF651 /* Group5_C0736042_S2018_MAD3004_FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				9BEEC145210A6CA700EEF651 /* Classes */,
 				9BEEC13E210A6C8F00EEF651 /* main.swift */,
 			);
 			path = Group5_C0736042_S2018_MAD3004_FinalProject;
+			sourceTree = "<group>";
+		};
+		9BEEC145210A6CA700EEF651 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9BEEC146210A6CC100EEF651 /* Vehicle.swift */,
+				9BEEC148210A6D4600EEF651 /* MotorCycle.swift */,
+				9BEEC14A210A6D6E00EEF651 /* Car.swift */,
+				9BEEC14C210A6DAC00EEF651 /* IDisplay.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BEEC147210A6CC100EEF651 /* Vehicle.swift in Sources */,
 				9BEEC13F210A6C8F00EEF651 /* main.swift in Sources */,
+				9BEEC14B210A6D6E00EEF651 /* Car.swift in Sources */,
+				9BEEC14D210A6DAC00EEF651 /* IDisplay.swift in Sources */,
+				9BEEC149210A6D4600EEF651 /* MotorCycle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
