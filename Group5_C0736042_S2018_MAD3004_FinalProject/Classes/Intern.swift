@@ -10,7 +10,7 @@ import Foundation
 class intern: employee {
     var schoolname: String!
     
-    init(schoolname: String, Name: String, birthday: String)
+    init(schoolname: String, Name: String, birthday: String, vehicle:[vehicle])
     {
         super.init(Name: Name, birthday: birthday, vehicle: [])
         self.schoolname = schoolname
@@ -20,5 +20,7 @@ class intern: employee {
     
     override  func  display() {
         print("Inter details \n Name: \(Name!) School Name: \(schoolname!) \n D.O.B \(birthday!)")
+        vehicle.forEach({$0.display()})
+
     }
 }

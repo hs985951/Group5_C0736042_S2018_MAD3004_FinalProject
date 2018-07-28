@@ -7,6 +7,7 @@
 //
 
 import Foundation
+
 class employee: IDisplay{
     
    
@@ -14,12 +15,14 @@ class employee: IDisplay{
     var birthday: String!
     var vehicle: [vehicle]
     
-    init(Name: String, birthday: String,vehicle:[vehicle]){
+    init(Name: String, birthday: String,vehicle:[vehicle])
+    {
         
         self.Name = Name
         self.birthday = birthday
         self.vehicle = vehicle
-    }
+     
+           }
     func calcAge(birthday: String) -> Int {
         let dateFormater = DateFormatter()
         dateFormater.dateFormat = "MM/dd/yyyy"
@@ -30,11 +33,10 @@ class employee: IDisplay{
         let age = calcAge.year
         return age!
     }
-    
- 
+   
     
     func display() {
-        print("Employee details Name: \(Name!) D.O.B \(birthday!) \(vehicle)")
+        print("Employee details Name: \(Name!) D.O.B \(birthday!) \(vehicle) ")
     }
     
 }

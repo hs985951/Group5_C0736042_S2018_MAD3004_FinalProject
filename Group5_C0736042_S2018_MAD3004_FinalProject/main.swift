@@ -16,8 +16,9 @@ var v4 = car(make: "Duster", plate: "Cg07", companyname: "Renault", year: 2018, 
 
 
 
-
+var e7 = parttime(Name: "Veer", birthday: "13/09/1992", rate: 24.5, hours: 12.4, vehicle: [v3])
 var e6 = fulltime(salary: 10000.0, bonus: 100.0, Name: "abc", birthday: "12/03/2010", vehicle: [v1])
+var e8 = intern(schoolname: "Gmsss", Name: "Harjinder", birthday: "3/2/2222", vehicle: [v4])
 e6.display()
 
 
@@ -25,3 +26,12 @@ e6.display()
 let line = String(repeating: "*", count: 50)
 print(line)
 
+e7.display()
+
+let line2 = String(repeating: "*", count: 50)
+print(line)
+
+e8.display()
+
+let line3 = String(repeating: "*", count: 50)
+print(line)

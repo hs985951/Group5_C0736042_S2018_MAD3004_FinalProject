@@ -22,5 +22,5 @@ class motorcycle: vehicle
     }
     
     override func display()  {
-        print("Motor-Cycle \(make) \(plate) \(milaege) \(cc) ")    }
+        print("Motor-Cycle \n  Make :\(make!) \n Plate: \(plate!) \n  Millage\(milaege!) \n CC \(cc!) ")    }
 }

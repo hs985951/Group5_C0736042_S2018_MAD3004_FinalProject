@@ -21,7 +21,7 @@ class fulltime : employee
         super.init(Name: Name, birthday: birthday, vehicle: [])
         self.salary = salary
         self.bonus = bonus
-        // self.Totalsalary = Totalsalary
+        
         self.vehicle = vehicle
         
         calcearning(salary: salary, bonus: bonus)
