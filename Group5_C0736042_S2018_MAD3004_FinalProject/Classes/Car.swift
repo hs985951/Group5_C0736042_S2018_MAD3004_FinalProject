@@ -21,11 +21,7 @@ class car : vehicle
         self.colour = colour
     }
     
-    
-}
-extension car : IDisplay
-{
-    func display()  {
-        print("Car details \(companyname) \(year) \(colour) \(make) \(plate)")
+    override func display()  {
+        print("Car details \nMake: \(companyname!) \nManufactureyear: \(year!) \nColour: \(colour!) \nMake: \(make!) \nPlate: \(plate!)")
     }
 }

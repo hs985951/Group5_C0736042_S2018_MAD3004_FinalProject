@@ -9,14 +9,16 @@
 import Foundation
 class employee: IDisplay{
     
-    var Emp_Id:String!
+   
     var Name: String!
     var birthday: String!
+    var vehicle: [vehicle]
     
-    init(Name: String, birthday: String){
+    init(Name: String, birthday: String,vehicle:[vehicle]){
         
         self.Name = Name
         self.birthday = birthday
+        self.vehicle = vehicle
     }
     func calcAge(birthday: String) -> Int {
         let dateFormater = DateFormatter()
@@ -29,17 +31,10 @@ class employee: IDisplay{
         return age!
     }
     
-    func enterEmpDetails(){
-        print("Emp ID:")
-        Emp_Id = String(readLine()!)
-        print("Emp Name:")
-        Name = String(readLine()!)
-    }
-    
-    
+ 
     
     func display() {
-        print("Employee details \(Name!) \(birthday!)")
+        print("Employee details Name: \(Name!) D.O.B \(birthday!) \(vehicle)")
     }
     
 }

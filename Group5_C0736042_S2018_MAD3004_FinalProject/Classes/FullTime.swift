@@ -7,17 +7,24 @@
 //
 
 import Foundation
+
 class fulltime : employee
 {
     var salary: Float!
     var bonus: Float!
     var Totalsalary: Float!
-    init(salary: Float, bonus: Float , Name: String , birthday: String, Totalsalary: Float!)
+    
+    
+    
+    init(salary: Float, bonus: Float , Name: String , birthday: String,vehicle:[vehicle])
     {
-        super.init(Name: Name, birthday: birthday)
+        super.init(Name: Name, birthday: birthday, vehicle: [])
         self.salary = salary
         self.bonus = bonus
-        self.Totalsalary = Totalsalary
+        // self.Totalsalary = Totalsalary
+        self.vehicle = vehicle
+        
+        calcearning(salary: salary, bonus: bonus)
         
     }
     
@@ -31,7 +38,10 @@ class fulltime : employee
     }
     
     override  func display()  {
-        print("Full time Employee details \(salary) \(bonus) \(Totalsalary) \(Name) \(birthday)")
+        print("Full time Employee details \n Name: \(Name!) \n  D.O.B: \(birthday!) \n Salary:\(salary!) \n Bonus:\(bonus!) \n TotalSalary: \(Totalsalary!)")
+        vehicle.forEach({$0.display()})
+        
+        
     }
     
     

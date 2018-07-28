@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BB0830B210D08BF00121FA3 /* Fixedcommision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB0830A210D08BF00121FA3 /* Fixedcommision.swift */; };
 		9BEEC13F210A6C8F00EEF651 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEC13E210A6C8F00EEF651 /* main.swift */; };
 		9BEEC147210A6CC100EEF651 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEC146210A6CC100EEF651 /* Vehicle.swift */; };
 		9BEEC149210A6D4600EEF651 /* MotorCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEC148210A6D4600EEF651 /* MotorCycle.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9BB0830A210D08BF00121FA3 /* Fixedcommision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixedcommision.swift; sourceTree = "<group>"; };
 		9BEEC13B210A6C8F00EEF651 /* Group5_C0736042_S2018_MAD3004_FinalProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Group5_C0736042_S2018_MAD3004_FinalProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BEEC13E210A6C8F00EEF651 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9BEEC146210A6CC100EEF651 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				9BEEC152210A6ED700EEF651 /* Employee.swift */,
 				9BEEC154210A6EF600EEF651 /* CommisionBased.swift */,
 				9BEEC156210A6F1400EEF651 /* Intern.swift */,
+				9BB0830A210D08BF00121FA3 /* Fixedcommision.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				9BEEC153210A6ED700EEF651 /* Employee.swift in Sources */,
 				9BEEC13F210A6C8F00EEF651 /* main.swift in Sources */,
 				9BEEC14B210A6D6E00EEF651 /* Car.swift in Sources */,
+				9BB0830B210D08BF00121FA3 /* Fixedcommision.swift in Sources */,
 				9BEEC14F210A6E8A00EEF651 /* PartTime.swift in Sources */,
 				9BEEC157210A6F1400EEF651 /* Intern.swift in Sources */,
 				9BEEC14D210A6DAC00EEF651 /* IDisplay.swift in Sources */,

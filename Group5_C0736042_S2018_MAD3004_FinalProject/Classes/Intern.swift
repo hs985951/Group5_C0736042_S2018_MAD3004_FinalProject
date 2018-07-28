@@ -12,13 +12,13 @@ class intern: employee {
     
     init(schoolname: String, Name: String, birthday: String)
     {
-        super.init(Name: Name, birthday: birthday)
+        super.init(Name: Name, birthday: birthday, vehicle: [])
         self.schoolname = schoolname
-        
+        self.vehicle = vehicle
         
     }
     
     override  func  display() {
-        print("Inter details \(schoolname) \(Name) \(birthday)")
+        print("Inter details \n Name: \(Name!) School Name: \(schoolname!) \n D.O.B \(birthday!)")
     }
 }

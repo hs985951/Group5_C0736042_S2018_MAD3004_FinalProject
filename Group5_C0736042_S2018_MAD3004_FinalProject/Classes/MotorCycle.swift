@@ -21,10 +21,6 @@ class motorcycle: vehicle
         self.milaege=milaege
     }
     
-}
-
-extension motorcycle : IDisplay
-{
-    func display()  {
+    override func display()  {
         print("Motor-Cycle \(make) \(plate) \(milaege) \(cc) ")    }
 }

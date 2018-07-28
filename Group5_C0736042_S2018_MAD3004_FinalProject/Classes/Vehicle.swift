@@ -7,20 +7,25 @@
 //
 
 import Foundation
-class vehicle
+class vehicle : IDisplay
 {
     
     
-    //  var vehicleInfo: String!
+    
     
     var make: String!
     var plate: String!
     
     init(make: String, plate: String) {
         
-        //self.vehicleInfo = vehicleInfo
         self.make = make
         self.plate = plate
         
     }
+    
+    func display()  {
+        print("Vehicle")
+    }
 }
+
+
