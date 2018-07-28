@@ -15,8 +15,7 @@ class fulltime : employee
     var Totalsalary: Float!
     
     
-    
-    init(salary: Float, bonus: Float , Name: String , birthday: String,vehicle:[vehicle])
+    init(salary: Float, bonus: Float , Name: String , birthday: String ,vehicle:[vehicle])
     {
         super.init(Name: Name, birthday: birthday, vehicle: [])
         self.salary = salary
@@ -25,7 +24,7 @@ class fulltime : employee
         self.vehicle = vehicle
         
         calcearning(salary: salary, bonus: bonus)
-        
+        calcAge(birthday: birthday)
     }
     
     
@@ -38,7 +37,7 @@ class fulltime : employee
     }
     
     override  func display()  {
-        print("Full time Employee details \n Name: \(Name!) \n  D.O.B: \(birthday!) \n Salary:\(salary!) \n Bonus:\(bonus!) \n TotalSalary: \(Totalsalary!)")
+        print("Full time Employee details \n Name: \(Name!) \n  D.O.B: \(birthday!) \n Salary:\(salary!) \n Bonus:\(bonus!) \n TotalSalary: \(Totalsalary!) \n Age : \(calcAge(birthday: birthday))")
         vehicle.forEach({$0.display()})
         
         

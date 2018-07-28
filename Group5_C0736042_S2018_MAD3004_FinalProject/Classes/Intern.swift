@@ -16,6 +16,7 @@ class intern: employee {
         self.schoolname = schoolname
         self.vehicle = vehicle
         
+        
     }
     
     override  func  display() {

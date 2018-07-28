@@ -14,15 +14,18 @@ class employee: IDisplay{
     var Name: String!
     var birthday: String!
     var vehicle: [vehicle]
-    
+
+   
     init(Name: String, birthday: String,vehicle:[vehicle])
     {
         
         self.Name = Name
         self.birthday = birthday
         self.vehicle = vehicle
+       calcAge(birthday: birthday)
      
            }
+    
     func calcAge(birthday: String) -> Int {
         let dateFormater = DateFormatter()
         dateFormater.dateFormat = "MM/dd/yyyy"
@@ -33,10 +36,10 @@ class employee: IDisplay{
         let age = calcAge.year
         return age!
     }
-   
+    
     
     func display() {
-        print("Employee details Name: \(Name!) D.O.B \(birthday!) \(vehicle) ")
+        print("Employee details Name: \(Name!) D.O.B \(birthday!) \(calcAge(birthday: birthday))\(vehicle) ")
     }
     
 }

@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 var v1 = car(make: "Civic", plate: "cdef345", companyname: "Honda", year: 2016, colour: "Black")
 var v2 = car(make: "Suv", plate: "fdhk215", companyname: "Kia", year: 2015, colour: "Blue")
 var v3 = motorcycle(make: "Yamaha", plate: "Mh30", cc: 180, milaege: 40)
@@ -16,9 +17,11 @@ var v4 = car(make: "Duster", plate: "Cg07", companyname: "Renault", year: 2018, 
 
 
 
-var e7 = parttime(Name: "Veer", birthday: "13/09/1992", rate: 24.5, hours: 12.4, vehicle: [v3])
+var e7 = parttime(Name: "Veer", birthday: "13/09/2011", rate: 24.5, hours: 12.4, vehicle: [v3])
 var e6 = fulltime(salary: 10000.0, bonus: 100.0, Name: "abc", birthday: "12/03/2010", vehicle: [v1])
 var e8 = intern(schoolname: "Gmsss", Name: "Harjinder", birthday: "3/2/2222", vehicle: [v4])
+var e5 = Fixedbased(Name: "Dhakan", birthday: "07/07/1992", rate: 12.2, hoursworked: 40, fixedamount: 50, vehicle: [v2])
+var e4 = commisionedbase(commissionperc: 20, commisionrate: 10, Name: "Pawan", birthday: "12/3/1990", rate: 14, hours: 7, vehicle: [v5])
 e6.display()
 
 
@@ -35,3 +38,10 @@ e8.display()
 
 let line3 = String(repeating: "*", count: 50)
 print(line)
+
+e5.display()
+
+let line4 = String(repeating: "*", count: 50)
+print(line)
+
+e4.display()
